@@ -1,0 +1,161 @@
+  .nav_links{
+            margin-top:30px;
+            color:wheat;
+            text-decoration:none;
+            font-size:20px;
+            gap:30px;
+
+        }
+        nav{
+            display:flex;
+            justify-content:flex-end;
+            background-color:rgb(199, 255, 127);
+            height:200px;
+            gap:30px;
+
+        }
+        .jiya{
+            justify-content:flex-start;
+            color:rgb(236, 177, 66);
+            font-size:100px;
+            position:absolute;
+            left:50px;
+            top:90px;
+        }
+        a{
+            color:rgb(2, 27, 71);
+            padding:50px;
+            font-size:30px;
+            text-decoration:none
+        }
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 80px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-image {
+    flex: 1;
+    text-align: center;
+}
+p{
+    font-size: 30px;
+    margin-left:65px;
+}
+.skill{
+    margin-left:65px;
+}
+h1{margin-left:50px;
+    text-decoration:wavy;
+            font-family:sans-serif;
+        }
+        span{
+            color:rgb(87, 123, 231);
+        }
+        a{
+            display:fex;
+            justify-content:center;
+            margin:20px;
+            padding:20px;
+        }
+        .hero-image{
+    width: 300px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 20px;}
+    img{
+        width:100px;
+        height:100px;
+    }
+    .skill{
+        display:inline-block;
+        background-color:rgb(127, 238, 255);
+        gap:30px;
+        border-radius:10px;
+        border:2px solid rgb(1, 20, 37);
+        padding: 10px 20px 10px 20px;
+    }
+    button{
+        margin-left:55px;
+        padding:25px;
+        font-size:30px;
+        background-color:rgb(224, 104, 186);
+        border-radius:10px;
+    }
+    .footer-text{
+        background-color:rgb(0, 0, 0);
+        color:rgb(255, 255, 255);
+        text-align:center;
+        padding:20px;
+        margin-top:20px;
+    }
+@media screen and (max-width: 768px) {
+
+    nav {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .nav_links {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    a {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .jiya {
+        position: static;
+        font-size: 50px;
+        text-align: center;
+        margin: 20px;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 30px;
+        gap: 20px;
+    }
+
+    .hero-text {
+        text-align: center;
+    }
+
+    .hero-image {
+        width: 250px;
+    }
+
+    p {
+        font-size: 18px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .skill {
+        margin: 5px;
+        padding: 8px 15px;
+    }
+
+    button {
+        margin-left: 10px;
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    img {
+        width: 70px;
+        height: 70px;
+    }
+}
